@@ -6,10 +6,10 @@ body {
 #container{
 	width: 1080px;
 	height: 100%;
-	margin: 0 auto;
+	margin: auto;
 	background-color: #4F4646;
 	border-radius: 25px;
-	box-shadow: 0 0 20px black;
+	box-shadow: 20px black;
 }
 
 /*-----Header-----*/
@@ -35,7 +35,6 @@ h1{
 	height: 50px;
 	background-color: #B5D6DF;
 	text-align: center;
-	box-shadow: black;
 }
 
 #nav_bar ul{
@@ -56,21 +55,21 @@ h1{
 /*-----Text-----*/
 
 #nav_bar a{
-	font: Verdana;
+	font-family: Verdana;
 	color: #B5D6DF;
 	text-decoration: none;
 }
 
 #nav_bar li:hover{
 	background-color: #066178;
-	box-shadow: 0 0 10px black;
+	box-shadow: 10px black;
 }
 	
 /*-----Content-----*/
 
 h2{
 	font-family: New Times Roman;
-	margin: 50px 0 0 10px;
+	margin: 50px 10px;
 	padding: 10px;
 	color: Black;
 }
@@ -83,14 +82,14 @@ blockquote{
 	width: 1000px;
 	padding:17px;
 	box-shadow: #1295B5;
-	border-radius: 7px;
+	border-radius: 7px 7px;
 	background-color: black;
 }
 
 p{
-	font: Verdana, Garamound, serif;
-	margin: 0 auto;
-	padding: 0 20px 10px 20px;
+	font-family: Verdana, Garamound, serif;
+	margin: auto;
+	padding: 20px 10px 20px;
 	color:#B5D6DF;
 }
 
@@ -106,7 +105,7 @@ figure{
 figure img{
 	margin-left: 32%;
 	border: 5px solid #1295B5;
-	border-radius: 5px;
+	border-radius: 5px 5px;
 }
 
 .uppercase{
@@ -119,7 +118,7 @@ figure a img: hover{
 }
 
 figcaption{
-	margin-left: 20%
+	margin-left: 20%;
 	padding: 3px;
 	color: #1295B5;
 }
