@@ -66,7 +66,33 @@ h1{
 	box-shadow: 0 0 10px black;
 }
 	
+/*-----Content-----*/
 
+h2{
+	font-family: New Times Roman;
+	margin: 50px 0 0 10px;
+	padding: 10px;
+	color: Black;
+}
+
+blockquote{
+	color: #1295B5;
+	display: inline-block;
+	margin-right: 20px;
+	margin-left: 20px;
+	width: 1000px;
+	padding:17px;
+	box-shadow: #1295B5;
+	border-radius: 7px;
+	background-color: black;
+}
+
+p{
+	font: Verdana, Courier, serif;
+	margin: 0 auto;
+	padding: 0 20px 10px 20px;
+	color:#B5D6DF;
+}
 
 
 .uppercase{
