@@ -69,61 +69,6 @@ h1{
 
 
 
-
-
-
-
-
-
-
-
-/* h1header{
-	background-color: white;
-	text-align: center;
-	border-width: 5px;
-	color: Blue;
-	border-width: 4px;
-	border-style: solid;
-	height: 100px;
-	float: center;
-}
-
-#nav{
-	height: 50px;
-	background: white;
-	padding: 10px;
-	margin: 10px;
-	color: blue;
-}
-
-h2{
-	color: Blue;
-}
-
-div{
-	border-width: 1px;
-	border-style: dashed;
-	border-color: blue;
-}
-
-a{
-	color: Blue;
-	text-decoration: none;
-}
-
-#container{
-	width: 80%
-	margin: auto;
-	margin-top:50px;
-}
-
-#images{
-	text-align: center;
-	color: white;
-}
-*/
-
-
 .uppercase{
 	text-transform: uppercase;
 }
@@ -135,13 +80,13 @@ a{
 }
 
 #footer a{
-	color: blue;
+	color: #066178;
 }
 
 /* pseudo class */
 
 #footer a:hover{ 
-	color: green;
+	color: white;
 }
 
 
