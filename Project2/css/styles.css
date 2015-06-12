@@ -22,9 +22,9 @@ body {
 /*-----Page Heading-----*/
 
 h1{
-	margin: 10 auto;
+	margin: 10 0 auto;
 	color: #B5D6DF;
-	font: Verdana, New Times Roman;
+	font-family: Verdana, New Times Roman;
 	text-align: center;
 }
 
@@ -82,7 +82,7 @@ blockquote{
 	width: 1000px;
 	padding:17px;
 	box-shadow: #1295B5;
-	border-radius: 7px 7px;
+	border-radius: 7px;
 	background-color: black;
 }
 
@@ -105,16 +105,11 @@ figure{
 figure img{
 	margin-left: 32%;
 	border: 5px solid #1295B5;
-	border-radius: 5px 5px;
+	border-radius: 5px;
 }
 
 .uppercase{
 	text-transform: uppercase;
-}
-
-figure a img: hover{
-	 border: black;
-	 opacity: 70%;
 }
 
 figcaption{
