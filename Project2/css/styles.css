@@ -1,15 +1,83 @@
-/* body is the entire background of page including font */
 
 body {
-    background-color: black;
-    color: white;
-    margin: blue;
-    font-family: Helvetica, Verdana, Sans-Serif;
+    background-color: #B5D6DF;
 }
 
-/* The heading and box around it */
+#container{
+	width: 1080px;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #4F4646;
+	border-radius: 25px;
+	box-shadow: 0 0 20px black;
+}
+
+/*-----Header-----*/
+
+#header{
+	margin: 10px auto;
+	padding: 10px;
+}
+
+/*-----Page Heading-----*/
 
 h1{
+	margin: 10 auto;
+	color: #B5D6DF;
+	font: Verdana, New Times Roman;
+	text-align: center;
+}
+
+/*-----Navigation-----*/
+
+#nav_bar{
+	width:1080px;
+	height: 50px;
+	background-color: #B5D6DF;
+	text-align: center;
+	box-shadow: black;
+}
+
+#nav_bar ul{
+	list-style-type: none;
+	margin: 10px auto;
+}
+
+#nav_bar li{
+	display: inline-block;
+	margin-right: 10px;
+	width: 150px;
+	padding:17px;
+	border: 1px blue;
+	border-radius: 5px;
+	background-color: black;
+}
+
+/*-----Text-----*/
+
+#nav_bar a{
+	font: Verdana;
+	color: #B5D6DF;
+	text-decoration: none;
+}
+
+#nav_bar li:hover{
+	background-color: #066178;
+	box-shadow: 0 0 10px black;
+}
+	
+
+
+
+
+
+
+
+
+
+
+
+/* h1header{
 	background-color: white;
 	text-align: center;
 	border-width: 5px;
@@ -19,8 +87,6 @@ h1{
 	height: 100px;
 	float: center;
 }
-
-/* Navigation */
 
 #nav{
 	height: 50px;
@@ -55,6 +121,8 @@ a{
 	text-align: center;
 	color: white;
 }
+*/
+
 
 .uppercase{
 	text-transform: uppercase;
