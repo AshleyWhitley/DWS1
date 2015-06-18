@@ -1,11 +1,6 @@
 body {
 	background-image: url("../Images/BG.gif");
 	background-repeat: repeat;
-	#column1, #column2, #column3 {
-		float: left;
-		width: 340 px;
-		margin: 20px;
-}
 }
 
 #container{
@@ -99,6 +94,12 @@ blockquote{
 	box-shadow: #1295B5;
 	border-radius: 7px;
 	background-color: black;
+}
+
+#sidebar {
+float:right;
+width:250px;
+margin: 10px;
 }
 
 p{
