@@ -1,6 +1,11 @@
 body {
 	background-image: url("../Images/BG.gif");
 	background-repeat: repeat;
+	#column1, #column2, #column3 {
+		float: left;
+		width: 340 px;
+		margin: 20px;
+}
 }
 
 #container{
@@ -10,6 +15,8 @@ body {
 	background-color: #63696B;
 	border-radius: 25px;
 	box-shadow: 0 0 20px black;
+	background-image: url("../Images/Banner.gif");
+	background-repeat: repeat;
 }
 
 /*-----Header-----*/
