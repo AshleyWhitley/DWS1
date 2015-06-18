@@ -1,15 +1,15 @@
-
 body {
-    background-color: #B5D6DF;
+	background-image: url("../Images/BG.gif");
+	background-repeat: repeat;
 }
 
 #container{
 	width: 1080px;
 	height: 100%;
-	margin: auto;
-	background-color: #4F4646;
+	margin: 0 auto;
+	background-color: #63696B;
 	border-radius: 25px;
-	box-shadow: 20px black;
+	box-shadow: 0 0 20px black;
 }
 
 /*-----Header-----*/
@@ -22,9 +22,9 @@ body {
 /*-----Page Heading-----*/
 
 h1{
-	margin: 10 0 auto;
-	color: #B5D6DF;
-	font-family: Verdana, New Times Roman;
+	margin: 10 auto;
+	color: white;
+	font: Verdana, New Times Roman;
 	text-align: center;
 }
 
@@ -33,8 +33,16 @@ h1{
 #nav_bar{
 	width:1080px;
 	height: 50px;
-	background-image: url(;
+	background-color: #B5D6DF;
 	text-align: center;
+	box-shadow: black;
+	background: #b5d6df; /* Old browsers */
+	background: -moz-linear-gradient(top,  #b5d6df 0%, #1295b5 101%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5d6df), color-stop(101%,#1295b5)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #b5d6df 0%,#1295b5 101%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #b5d6df 0%,#1295b5 101%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #b5d6df 0%,#1295b5 101%); /* IE10+ */
+	background: linear-gradient(to bottom,  #b5d6df 0%,#1295b5 101%); /* W3C */
 }
 
 #nav_bar ul{
@@ -55,21 +63,21 @@ h1{
 /*-----Text-----*/
 
 #nav_bar a{
-	font-family: Verdana;
+	font: Verdana;
 	color: #B5D6DF;
 	text-decoration: none;
 }
 
 #nav_bar li:hover{
 	background-color: #066178;
-	box-shadow: 10px black;
+	box-shadow: 0 0 10px black;
 }
 	
 /*-----Content-----*/
 
 h2{
 	font-family: New Times Roman;
-	margin: 50px 10px;
+	margin: 50px 0 0 10px;
 	padding: 10px;
 	color: Black;
 }
@@ -87,10 +95,10 @@ blockquote{
 }
 
 p{
-	font-family: Verdana, Garamound, serif;
-	margin: auto;
-	padding: 20px 10px 20px;
-	color:#B5D6DF;
+	font: Verdana, Garamound, serif;
+	margin: 0 auto;
+	padding: 0 20px 10px 20px;
+	color: white;
 }
 
 /*-----Gallery-----*/
@@ -104,7 +112,7 @@ figure{
  
 figure img{
 	margin-left: 32%;
-	border: 5px solid #1295B5;
+	border: 5px solid black;
 	border-radius: 5px;
 }
 
@@ -112,8 +120,13 @@ figure img{
 	text-transform: uppercase;
 }
 
+figure a img: hover{
+	 border: black;
+	 opacity: 70%;
+}
+
 figcaption{
-	margin-left: 20%;
+	margin-left: 20%
 	padding: 3px;
 	color: #1295B5;
 }
@@ -125,6 +138,7 @@ figcaption{
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 80%;
+	color: white;
 }
 
 #footer a{
