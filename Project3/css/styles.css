@@ -27,11 +27,8 @@ h1{
 	margin: 10 auto;
 	color: white;
 	float: center;
-	@font-face
-  	font-family: 'Heading font';
-  	src: url('Capture_it.ttf');
-}
 	text-align: center;
+	font-family: 'Orbitron', sans-serif, bold;
 }
 
 /*-----Navigation-----*/
@@ -69,7 +66,7 @@ h1{
 /*-----Text-----*/
 
 #nav_bar a{
-	font: Verdana;
+	font-family: 'Orbitron', sans-serif, bold;
 	color: #B5D6DF;
 	text-decoration: none;
 }
@@ -82,10 +79,9 @@ h1{
 /*-----Content-----*/
 
 h2{
-	font-family: New Times Roman;
 	margin: 50px 0 0 10px;
 	padding: 10px;
-	color: Black;
+	font-family: 'Orbitron', sans-serif, bold;
 }
 
 blockquote{
@@ -106,8 +102,12 @@ width:250px;
 margin: 10px;
 }
 
+#list {
+	color: #1295B5;
+	font-family: 'Orbitron', sans-serif, bold;
+}
+
 p{
-	font: Verdana, Garamound, serif;
 	margin: 0 auto;
 	padding: 0 20px 10px 20px;
 	color: white;
@@ -120,6 +120,10 @@ figure{
 	margin: 20px;
 	width: 200px;
 	text-align: center;
+}
+
+figure a: active{
+	 border: #1295B5;
 }
  
 figure img{
@@ -137,9 +141,10 @@ figure img a: active{
 }
 
 figcaption{
-	margin-left: 20%
-	padding: 3px;
+	float: left;
+	margin: 2px 0 5px 70px;
 	color: #1295B5;
+	font-family: 'Orbitron', sans-serif, bold;
 }
 
 /*-----Footer-----*/
@@ -160,10 +165,6 @@ figcaption{
 
 #footer a:hover{ 
 	color: white;
-}
-
-#footer a:visited{
-	color: yellow;
 }
 
 
