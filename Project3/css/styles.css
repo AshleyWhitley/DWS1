@@ -26,7 +26,11 @@ body {
 h1{
 	margin: 10 auto;
 	color: white;
-	font: Verdana, New Times Roman;
+	float: center;
+	@font-face
+  	font-family: 'Heading font';
+  	src: url('Capture_it.ttf');
+}
 	text-align: center;
 }
 
@@ -128,9 +132,8 @@ figure img{
 	text-transform: uppercase;
 }
 
-figure a img: hover{
-	 border: black;
-	 opacity: 70%;
+figure img a: active{
+	 border: #1295B5;
 }
 
 figcaption{
@@ -157,6 +160,10 @@ figcaption{
 
 #footer a:hover{ 
 	color: white;
+}
+
+#footer a:visited{
+	color: yellow;
 }
 
 
