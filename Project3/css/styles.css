@@ -56,7 +56,7 @@ h1{
 	height: 50px;
 	background-color: #B5D6DF;
 	text-align: center;
-	box-shadow: grey;
+	box-shadow: 10px 10px 5px #000000;
 	background: #b5d6df; /* Old browsers */
 	background: -moz-linear-gradient(top,  #b5d6df 0%, #1295b5 101%); /* FF3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b5d6df), color-stop(101%,#1295b5)); /* Chrome,Safari4+ */
@@ -91,7 +91,7 @@ h1{
 
 #nav_bar li:hover{
 	background-color: #066178;
-	box-shadow: 0 0 10px black;
+	box-shadow: 10px 10px 5px #000000;
 }
 	
 /*-----Content-----*/
@@ -114,7 +114,7 @@ h2{
 	margin-top: 30px;
 	width: 200px;
 	padding:10px;
-	box-shadow: grey;
+	box-shadow: 10px 10px 5px #000000;
 	border-radius: 7px;
 	background-color: black;
 	font-family: 'Orbitron', sans-serif, italic;
@@ -135,7 +135,7 @@ p{
 /*-----Gallery-----*/
 
 figure{
-	float: center;
+	float: none;
 	width: 200px;
 	text-align: center;
 }
