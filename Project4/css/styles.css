@@ -136,14 +136,14 @@ p{
 /*-----Gallery-----*/
 
 figure a {
-display: block;
+display: inline-block;
 border: 5px solid black;
 width: 900px;
 height: 450px;
 }
 
 figure a:hover {
-border: 5px solid red;
+border: 5px solid green;
 }
 
 .uppercase{
