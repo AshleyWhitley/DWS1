@@ -87,13 +87,20 @@ h1{
 	box-shadow: 5px 5px 5px black;
 }
 	
-/*-----Content-----*/
+/*-----Content with Icons-----*/
 
 h2{
 	color: #1295B5;
 	margin: 50px 0 0 10px;
 	padding: 10px;
 	font-family: 'Orbitron', sans-serif, bold;
+}
+
+#icon1{
+background-image: url("..Images/Nintendo.png");
+background-repeat: no-repeat;
+width: 64px;
+height: 64px;
 }
 
 #paragraph{
