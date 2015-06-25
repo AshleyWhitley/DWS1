@@ -140,6 +140,7 @@ display: inline-block;
 border: 5px solid black;
 width: 900px;
 height: 450px;
+margin-left: 45px;
 }
 
 figure a:hover {
