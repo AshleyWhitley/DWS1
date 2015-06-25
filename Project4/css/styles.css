@@ -118,6 +118,8 @@ h2{
 	border-radius: 7px;
 	background-color: black;
 	font-family: 'Orbitron', sans-serif, italic;
+	float: left;
+	margin: 10px;
 }
 
 #list {
@@ -173,6 +175,7 @@ figcaption{
 	margin: 15px;
 	width: 760 px;
 	padding: 7px 10px 10px 10px; 
+	border: 5px #1295B5;
 }	
 
 /*-----Footer-----*/
