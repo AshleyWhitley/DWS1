@@ -141,14 +141,14 @@ figure{
 	text-align: center;
 }
 
-figure a:hover{
-	color:blue;
+a { 
+    display: block;
+    border: 5px solid black;
+	border-radius: 5px;
 }
 
-figure img{
-	margin-left: 32%;
-	border: 5px solid black;
-	border-radius: 5px;
+figure a:hover{
+	color:blue;
 }
 
 .uppercase{
