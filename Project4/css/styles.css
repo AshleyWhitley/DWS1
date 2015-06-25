@@ -97,10 +97,10 @@ h2{
 }
 
 #icon1{
-background-image: url("..Images/Nintendo.png");
+background-image: url("../Images/Nintendo.png");
 background-repeat: no-repeat;
-width: 64px;
-height: 64px;
+width: 128px;
+height: 128px;
 }
 
 #paragraph{
