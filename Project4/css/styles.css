@@ -192,6 +192,10 @@ form{
   color: #1295B5;
 }
 
+#console{
+	margin: 15px;
+}
+
 /*-----Footer-----*/
 
 #footer{
