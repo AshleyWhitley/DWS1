@@ -174,8 +174,25 @@ figcaption{
 	display: block;
 	margin: 15px;
 	width: 760 px;
-	padding: 7px 10px 10px 10px; 
-	border: 5px #1295B5;
+	body {
+							color: white;}
+						table {
+							width: 600px;}
+						th, td {
+							padding: 7px 10px 10px 10px;}
+						th {
+							text-transform: uppercase;
+							letter-spacing: 0.1em;
+							font-size: 90%;
+							border-bottom: 3px solid #1295B5;
+							border-top: 3px solid #1295B5;
+							text-align: left;}
+						tr.even {
+							background-color: #efefef;}
+						tr:hover {
+							background-color: #1295B5;}
+						.money {
+							text-align: right;}
 }	
 
 /*-----Footer-----*/
