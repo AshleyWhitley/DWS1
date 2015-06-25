@@ -73,7 +73,7 @@ h1{
 	background-color: black;
 }
 
-/*-----Text-----*/
+/*----- Nav Bar Text-----*/
 
 #nav_bar a{
 	font-family: 'Orbitron', sans-serif, bold;
@@ -86,7 +86,7 @@ h1{
 	box-shadow: 5px 5px 5px black;
 }
 	
-/*-----Content with Icons-----*/
+/*-----Heading Content with Icons-----*/
 
 h2{
 	color: #1295B5;
@@ -98,9 +98,8 @@ h2{
 #icon1{
 background-image: url("../Images/PS.png");
 background-repeat: no-repeat;
-width: 128px;
-height: 128px;
-padding: 10px;
+padding: 40px;
+float: left;
 }
 
 #paragraph{
@@ -122,6 +121,13 @@ padding: 10px;
 	margin: 10px;
 }
 
+#icon2{
+background-image: url("../Images/xbox.png");
+background-repeat: no-repeat;
+padding: 40px;
+float: left;
+}
+
 #list {
 	color: #1295B5;
 	font-family: 'Orbitron', sans-serif, bold;
@@ -129,7 +135,9 @@ padding: 10px;
 }
 
 p{
-	margin: 15px;
+	margin: 10px;
+	overflow:auto;
+	display:block;
 	color: white;
 	font-family: 'Orbitron', sans-serif;
 }
