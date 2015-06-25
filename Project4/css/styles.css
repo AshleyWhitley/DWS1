@@ -137,12 +137,13 @@ p{
 
 figure a {
 display: block;
+border: 5px solid black;
 width: 900px;
 height: 450px;
 }
 
 figure a:hover {
-border: 5px solid black;
+border: 5px solid red;
 }
 
 .uppercase{
