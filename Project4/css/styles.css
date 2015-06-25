@@ -1,6 +1,7 @@
 body {
 	background-image: url("../Images/BG.gif");
 	background-repeat: repeat;
+	font-size: 0.938em;
 }
 
 #container{
@@ -261,7 +262,7 @@ textarea {
 }
 
 #footer a{
-	color: #066178;
+	color: #000000;
 }
 
 /* pseudo class */
