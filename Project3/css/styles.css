@@ -161,6 +161,20 @@ figcaption{
 	font-family: 'Orbitron', sans-serif, bold;
 }
 
+/*-----Table-----*/
+
+
+#table{
+	border-radius: 7%;
+	text-align: LEFT;
+	font-family: 'Orbitron', sans-serif;
+	color: #white;
+	display: block;
+	margin: 15px;
+	width: 760 px;
+	padding: 7px 10px 10px 10px; 
+}	
+
 /*-----Footer-----*/
 
 #footer{
