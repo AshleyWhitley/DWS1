@@ -135,20 +135,14 @@ p{
 
 /*-----Gallery-----*/
 
-figure{
-	float: none;
-	width: 200px;
-	text-align: center;
+figure a {
+display: block;
+width: 900px;
+height: 450px;
 }
 
-a { 
-    display: block;
-    border: 5px solid black;
-	border-radius: 5px;
-}
-
-figure a:hover{
-	color:blue;
+figure a:hover {
+border: 5px solid black;
 }
 
 .uppercase{
