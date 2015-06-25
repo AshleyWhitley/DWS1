@@ -165,35 +165,31 @@ figcaption{
 
 /*-----Table-----*/
 
-
 #table{
-	border-radius: 7%;
-	text-align: LEFT;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
 	font-family: 'Orbitron', sans-serif;
-	color: #white;
+	color: #fff;
 	display: block;
 	margin: 15px;
-	width: 760 px;
-	body {
-							color: white;}
-						table {
-							width: 600px;}
-						th, td {
-							padding: 7px 10px 10px 10px;}
-						th {
-							text-transform: uppercase;
-							letter-spacing: 0.1em;
-							font-size: 90%;
-							border-bottom: 3px solid #1295B5;
-							border-top: 3px solid #1295B5;
-							text-align: left;}
-						tr.even {
-							background-color: #efefef;}
-						tr:hover {
-							background-color: #1295B5;}
-						.money {
-							text-align: right;}
+	width: 70%;
 }	
+
+th, td {padding: 7px 10px 10px 10px;}
+
+tr.even { background-color: #efefef;}
+
+tr:hover { background-color: #1295B5;}
+
+.money { text-align: right;}
+
+th {text-transform: uppercase;
+letter-spacing: 0.1em;
+font-size: 90%;
+border-bottom: 3px solid #1295B5;
+border-top: 3px solid #1295B5;
+text-align: left;}
 
 /*-----Footer-----*/
 
