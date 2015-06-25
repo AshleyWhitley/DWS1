@@ -165,12 +165,12 @@ figcaption{
 
 /*-----Table-----*/
 
-#table{
+table{
 	width: 70%;
 	margin-right: auto;
 	margin-left: auto;
 	font-family: 'Orbitron', sans-serif;
-	color: white;
+	color: #ffffff;
 	display: block;
 	margin: 15px;
 	width: 70%;
@@ -189,7 +189,8 @@ letter-spacing: 0.1em;
 font-size: 90%;
 border-bottom: 3px solid #1295B5;
 border-top: 3px solid #1295B5;
-text-align: left;}
+text-align: left;
+color: #ffffff;}
 
 /*-----Footer-----*/
 
